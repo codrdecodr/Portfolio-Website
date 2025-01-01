@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio_Website</title>
+</head>
+
+<body>
+<div class="header">
+    <header>
+        <h1 id="Main">Portfolio Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#ME">MANSI JHA</a></li>
+                <li><a href="#Hero">HOME</a></li>
+                <li><a href="#About-Me">ABOUT</a></li>
+                <li><a href="#Projects">PROJECTS</a></li>
+                <li><a href="#Contact-Me">CONTACT</a></li>
+                <button id="theme-toggle"><span id="theme-icon">🌙</span></button>
+            </ul>
+        </nav>
+    </header>
+</div>
+    <main>
+        <section id="Hero">
+            <img width="400" height="400" src="Images/mansi.jpg" alt="Mansi"><br>
+            <p>Hi, I'm Mansi Jha!</p>
+            <h3>Frontend Developer</h3>
+            <h3>Python Developer</h3>
+            <h3>C++ (OOPs) enthusiast</h3>
+            <button><a href="#Projects">View My Work</a></button>
+        </section>
+        <div>
+            <section id="About-Me">
+                <h3>About Me</h3>
+                <p>
+                    Hello! My name is Mansi Jha, and I am an enthusiastic and dedicated computer engineering student
+                    passionate about software development and innovation.
+                    With a strong foundation in programming languages like Python, C++, and JavaScript, I love building
+                    creative and efficient solutions that make a difference.
+                </p>
+                <p>
+                    My interests span across frontend development, backend logic, and project architecture, where I
+                    bring ideas to life through code.
+                    I am currently honing my skills in full-stack development and diving into AI/ML technologies to
+                    explore their potential applications.
+                </p>
+                <p>
+                    Beyond coding, I enjoy problem-solving, working collaboratively on projects, and continuously
+                    learning to stay updated with the latest tech trends.
+                </p>
+                <h4>Skills & Technologies:</h4>
+                <ul>
+                    <li>Frontend: HTML, CSS, JavaScript, Bootstrap</li>
+                    <li>Backend: Python, Flask </li>
+                    <li>Programming: C, C++, Python</li>
+                    <li>Database: MySQL</li>
+                    <li>Others: DSA, OOPs</li>
+                </ul>
+            </section>
+            <section id="Projects">
+                <h3>My Projects</h3>
+                <article id="Project1">
+                <h2>Project 1</h2>
+                <h2 >Slot Machine</h2>
+                <p>
+                    This is a simple slot machine game implemented in Python. The game allows players to deposit money,
+                    select the number of lines to bet on, and place bets on each line. A random slot machine spin is
+                    generated, and players can win depending on the symbols that appear. There is also a jackpot feature
+                    where players can win a large prize.
+                </p>
+                <h4>Live Demo</h4>
+                <video width="800" height="480" controls>
+                    <source src="Videos/Slot machine.mp4" type="video/mp4">
+                </video>
+                <figcaption>Slot Machine</figcaption>
+                <br>
+                <button><a href="https://github.com/codrdecodr/Slot-Machine">Github link</a></button>
+                </article>
+                <br>
+                <article id="Project2">
+                <h2>Project 2</h2>
+                <h2 ">Virtual Assistant</h2>
+                <p>
+                    This is a C++ project named Assistant.cpp that simulates a Virtual Assistant. It performs tasks
+                    based on user commands, showcasing the use of core C++ programming concepts.
+                </p>
+                <h4>Live Demo</h4>
+                <video width="800" height="480" controls>
+                    <source src="Videos/Slot machine.mp4" type="video/mp4">
+                </video>
+                <figcaption>Virtual Assistant</figcaption>
+                <br>
+                <button><a href="https://github.com/codrdecodr/VA">Github link</a></button>
+                </article>
+            </section>
+            <section id="Contact-Me">
+            <h3>Contact Me:</h3>
+            <form>
+             
+                <label for="name">Name:</label>
+                <input type="name" placeholder="Enter your name" >
+                <br>
+                <label for="email">E-mail ID:</label>
+                <input type="email" placeholder="Enter your email" required>
+                <br>
+                <label for="message">Message:</label><br>
+                <textarea rows="5" cols="40" placeholder="Type your message here..."></textarea>
+                <br>
+                <button>SEND</button>
+            
+            </form>
+            </section>
+        </div>
+    </main>
+    <footer id="ME">
+        <a href="https://github.com/codrdecodr"><img src="Images/github.jpeg" alt="Mansi's GitHub Logo"></a>
+        <a href="https://www.linkedin.com/in/mansi-jha-4a27922ba/"><img width="300" height="300" src="Images/Linkedin.jpg" alt="Mansi's Linkedin Logo"></a><br>
+        <p>© 2024 Mansi Jha. All Rights Reserved.</p>
+    </footer>
+    <button id="back-to-top"> ↑ </button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+.header {
+    background-color: greenyellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-right:10px;
+}
+
+main {
+    padding-top: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: greenyellow;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#Hero {
+    background: linear-gradient(to bottom, greenyellow, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+#Hero img {
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#Hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#Hero button {
+    margin-top: 20px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#Hero button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    #Hero {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#Hero button a {
+    text-decoration: none;
+    color: white;
+}
+
+#About-Me {
+    line-height: 1.6;
+}
+
+#About-Me ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+#About-Me ul li {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+#About-Me h4 {
+    font-size: 20px;
+
+}
+#Projects h3 {
+    font-size: 30px;
+    padding: 5px 5px;
+    background-color: greenyellow;
+}
+article {
+    padding: 20px;
+    line-height: 1.8;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    width: 80%;
+}
+#Project1 {
+    padding: 20px;
+    line-height: 1.8;
+    background: linear-gradient(to bottom, greenyellow, white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    width: 80%;
+}
+#Project2 {
+    padding: 20px;
+    line-height: 1.8;
+    background: linear-gradient(to bottom, greenyellow, white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    width: 80%
+}
+article button {
+    margin-top: 20px;
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+article button a {
+    text-decoration: none;
+    color: white;
+}
+article button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+article figcaption {
+    font-size: 20px;
+}
+#About-Me h3 {
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+#Projects h3 {
+    background-color: greenyellow;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#Contact-Me{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    background-color:white;
+    width:400px;
+    padding:30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#Contact-Me h3{
+    background-color: greenyellow;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width:200px;
+    text-align: center;
+}
+#Contact-Me button{
+    margin-left:50px;
+    margin-top: 20px;
+    width:200px;
+    color:white;
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#Contact-Me  input[type="text"],
+input[type="email"],
+input[type="name"]{
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+#Contact-Me Label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+#Contact-Me button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+footer {
+    padding:15px;
+    background-color: greenyellow;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+footer img{
+    border-radius:20px;
+    margin:10px;
+    height:100px;
+    width:75px;
+}
+footer p{
+    padding:20px;
+    font-size:12px;
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+body.dark-mode {
+    background-color: black;
+    color:green;
+}
+#theme-toggle {
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color:greenyellow;
+    color:black;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 30px;
+    display:none;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    color:greenyellow;
+    background-color:black;
+}
+#About-Me, #Projects, #Contact-Me, #Hero{
+    scroll-margin-top: 120px;
+}
