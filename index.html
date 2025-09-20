@@ -5,32 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
-    <title> Portfolio_Website</title>
+    <title>My_Portfolio</title>
 </head>
 
 <body>
-<div class="header">
-    <header>
-        <h1 id="Main">Portfolio Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#ME">MANSI JHA</a></li>
-                <li><a href="#Hero">HOME</a></li>
-                <li><a href="#About-Me">ABOUT</a></li>
-                <li><a href="#Projects">PROJECTS</a></li>
-                <li><a href="#Contact-Me">CONTACT</a></li>
-                <button id="theme-toggle"><span id="theme-icon">🌙</span></button>
-            </ul>
-        </nav>
-    </header>
-</div>
+    <div class="header">
+        <header>
+            <h1 id="Main">My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#ME">MANSI JHA</a></li>
+                    <li><a href="#Hero">HOME</a></li>
+                    <li><a href="#About-Me">ABOUT</a></li>
+                    <li><a href="#Projects">PROJECTS</a></li>
+                    <li><a href="#Contact-Me">CONTACT</a></li>
+                    <button id="theme-toggle"><span id="theme-icon">🌙</span></button>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <main>
         <section id="Hero">
-            <img width="400" height="400" src="Images/mansi.jpg" alt="Mansi"><br>
-            <p>Hi, I'm Mansi Jha!</p>
-            <h3>Frontend Developer</h3>
-            <h3>Python Developer</h3>
-            <h3>C++ (OOPs) enthusiast</h3>
+            <img width="400" height="400" src="Images/Mansi Jha.jpeg" alt="Mansi"><br>
+            <p><B>Hi, I'm Mansi Jha!</B></p>
+            <h3>Aspiring Software Engineer</h3>
             <button><a href="#Projects">View My Work</a></button>
         </section>
         <div>
@@ -39,7 +37,7 @@
                 <p>
                     Hello! My name is Mansi Jha, and I am an enthusiastic and dedicated computer engineering student
                     passionate about software development and innovation.
-                    With a strong foundation in programming languages like Python, C++, and JavaScript, I love building
+                    With a strong foundation in programming languages like C++, JavaScript, Python I love building
                     creative and efficient solutions that make a difference.
                 </p>
                 <p>
@@ -54,74 +52,75 @@
                 </p>
                 <h4>Skills & Technologies:</h4>
                 <ul>
-                    <li>Frontend: HTML, CSS, JavaScript, Bootstrap</li>
-                    <li>Backend: Python, Flask </li>
+                    <li>Frontend: HTML, CSS, JavaScript</li>
+                    <li>Backend: Python , nodeJs</li>
                     <li>Programming: C, C++, Python</li>
-                    <li>Database: MySQL</li>
                     <li>Others: DSA, OOPs</li>
                 </ul>
             </section>
             <section id="Projects">
                 <h3>My Projects</h3>
                 <article id="Project1">
-                <h2>Project 1</h2>
-                <h2 >Slot Machine</h2>
-                <p>
-                    This is a simple slot machine game implemented in Python. The game allows players to deposit money,
-                    select the number of lines to bet on, and place bets on each line. A random slot machine spin is
-                    generated, and players can win depending on the symbols that appear. There is also a jackpot feature
-                    where players can win a large prize.
-                </p>
-                <h4>Live Demo</h4>
-                <video width="800" height="480" controls>
-                    <source src="Videos/Slot machine.mp4" type="video/mp4">
-                </video>
-                <figcaption>Slot Machine</figcaption>
-                <br>
-                <button><a href="https://github.com/codrdecodr/Slot-Machine">Github link</a></button>
+                    <h2>Project 1</h2>
+                    <h2>Expense Tracker</h2>
+                    <p>
+                        A responsive expense tracking app built with JavaScript, React, and Node.js. It allows users to
+                        log in, add, and manage their daily expenses through simple CRUD operations. The app features a
+                        clean interface with real-time updates and backend integration for data handling.
+                    </p>
+                    <h4>Live Demo</h4>
+                    <video width="800" height="480" controls>
+                        <source src="Videos/Expense-Tracker-Demo.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>Expense Tracker</figcaption>
+                    <br>
+                    <button><a href="https://github.com/codrdecodr/expense-tracker-frontend">Github link</a></button>
                 </article>
                 <br>
                 <article id="Project2">
-                <h2>Project 2</h2>
-                <h2 ">Virtual Assistant</h2>
-                <p>
-                    This is a C++ project named Assistant.cpp that simulates a Virtual Assistant. It performs tasks
-                    based on user commands, showcasing the use of core C++ programming concepts.
-                </p>
-                <h4>Live Demo</h4>
-                <video width="800" height="480" controls>
-                    <source src="Videos/Slot machine.mp4" type="video/mp4">
-                </video>
-                <figcaption>Virtual Assistant</figcaption>
-                <br>
-                <button><a href="https://github.com/codrdecodr/VA">Github link</a></button>
+                    <h2>Project 2</h2>
+                    <h2>AI Crop Recommender</h2>
+                    <p>
+                        A Python-based tool that recommends suitable crops using soil nutrients, rainfall, and pH data.
+                        Built with scikit-learn for classification and Pandas for data handling. Deployed through a
+                        Streamlit interface for easy user interaction.
+                    </p>
+                    <h4>Live Demo</h4>
+                    <video width="800" height="480" controls>
+                        <source src="Videos/AI-Crop-Recommender-Demo.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>AI Crop Recommender</figcaption>
+                    <br>
+                    <button><a href="https://github.com/codrdecodr/AI_Crop_Recommender">Github link</a></button>
                 </article>
             </section>
             <section id="Contact-Me">
-            <h3>Contact Me:</h3>
-            <form>
-             
-                <label for="name">Name:</label>
-                <input type="name" placeholder="Enter your name" >
-                <br>
-                <label for="email">E-mail ID:</label>
-                <input type="email" placeholder="Enter your email" required>
-                <br>
-                <label for="message">Message:</label><br>
-                <textarea rows="5" cols="40" placeholder="Type your message here..."></textarea>
-                <br>
-                <button>SEND</button>
-            
-            </form>
+                <h3>Contact Me:</h3>
+                <form>
+
+                    <label for="name">Name:</label>
+                    <input type="name" placeholder="Enter your name">
+                    <br>
+                    <label for="email">E-mail ID:</label>
+                    <input type="email" placeholder="Enter your email" required>
+                    <br>
+                    <label for="message">Message:</label><br>
+                    <textarea rows="5" cols="40" placeholder="Type your message here..."></textarea>
+                    <br>
+                    <button>SEND</button>
+
+                </form>
             </section>
         </div>
     </main>
     <footer id="ME">
         <a href="https://github.com/codrdecodr"><img src="Images/github.jpeg" alt="Mansi's GitHub Logo"></a>
-        <a href="https://www.linkedin.com/in/mansi-jha-4a27922ba/"><img width="300" height="300" src="Images/Linkedin.jpg" alt="Mansi's Linkedin Logo"></a><br>
-        <p>© 2024 Mansi Jha. All Rights Reserved.</p>
+        <a href="https://www.linkedin.com/in/mansi-jha-4a27922ba/"><img width="300" height="300"
+                src="Images/Linkedin.jpg" alt="Mansi's Linkedin Logo"></a><br>
+        <p>© 2025 Mansi Jha. All Rights Reserved.</p>
     </footer>
     <button id="back-to-top"> ↑ </button>
     <script src="script.js"></script>
 </body>
+
 </html>
